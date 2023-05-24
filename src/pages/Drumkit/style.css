@@ -1,0 +1,8 @@
+.drumkit {
+    background-color: blue;
+    display: flex;
+    width: 100vw;
+    height: 60vh;
+    justify-content: center;
+    align-items: center;
+}
