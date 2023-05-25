@@ -5,7 +5,7 @@ export default function Footer() {
 
     return (
         <>
-            <div className="footer">this is a footer</div>
+            <div className="footer">just some footer info</div>
 
         </>
     );

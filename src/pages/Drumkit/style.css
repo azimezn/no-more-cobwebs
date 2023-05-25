@@ -1,5 +1,5 @@
 .drumkit {
-    background-color: blue;
+    background-color: var(--whitepurple);
     display: flex;
     width: 100vw;
     height: 60vh;

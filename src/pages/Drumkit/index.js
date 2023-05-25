@@ -5,7 +5,7 @@ export default function Drumkit() {
 
     return (
         <>
-            <div className="drumkit">this is drumkit</div>
+            <div className="drumkit">Welcome to the drumkit!</div>
         </>
     );
 }

@@ -1,8 +1,11 @@
 .footer {
     height: 15vh;
     width: 100vw;
-    background-color: var(--secondary);
+    color: var(--darkpurple);
+    background-color: var(--whitepurple);
     display: flex;
     justify-content: center;
     align-items: center;
+    border: 5px var(--tertiary);
+    border-style: solid none solid none;
 }
