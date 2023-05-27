@@ -2,7 +2,7 @@ import './App.css';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import { useState } from 'react';
 import { Header, Footer, Navigation } from "./components";
-import { Home, Drumkit } from "./pages";
+import { Home, Drumkit, Clock } from "./pages";
 
 export default function App() {
 
@@ -14,6 +14,7 @@ export default function App() {
         <Routes>
           <Route exact path="/" element={<Home />} />
           <Route path="/drumkit" element={<Drumkit />} />
+          <Route path="/clock" element={<Clock />} />
         </Routes>
         <Footer />
       </div>
